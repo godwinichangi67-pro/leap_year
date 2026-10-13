@@ -6,4 +6,4 @@ def leapYear(year):
     else:
         return("Not a Leap Year")
 year = int(sys.argv[1])
-leapYear(year)
+print(f"{year} is {leapYear(year)}")
